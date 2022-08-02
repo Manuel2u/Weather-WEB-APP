@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favico.jpg">
+  <title>Weather App</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <div class="Main">
+      <h1>Weather App</h1>
+
+      <form action="/response" method="post">
+
+        <label class="label" for="Country">Enter Country: </label>
+        <input class="input" type="text" autocomplete="off" name="country">
+        <label class="label" for="City">Enter City: </label>
+        <input class="input" type="text" autocomplete="off" name="city">
+
+        <button type="submit" name="submit">Look Up</button>
+
+      </form>
+    </div>
+
+  </center>
+</body>
+
+</html>
